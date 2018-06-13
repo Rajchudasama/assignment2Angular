@@ -16,7 +16,7 @@ export class TestimonialsService {
       IsActive: true
     }
   ];
-
+  //returns testimonials
   getTestimonial():Observable<Testimonial[]>{
     let results: Testimonial[] = [];
     for(let t of this.testimonial){
