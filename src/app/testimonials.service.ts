@@ -10,11 +10,29 @@ export class TestimonialsService {
   testimonial: Testimonial[] = [
     {
       id: 1,
-      name: 'Brenie',
-      review: 'Good work keep it up',
-      createDate: new Date('01/01/1970'),
+      name: 'John',
+      designation: 'Project manager at samco',
+      review: 'Professional work and always on time',
+      createDate: new Date('01/01/2018'),
+      IsActive: true
+    },
+    {
+      id: 2,
+      name: 'Raj',
+      designation: 'web developer at phoenix',
+      review: 'always got outstanding solution',
+      createDate: new Date('01/12/2018'),
+      IsActive: true
+    },
+    {
+      id: 3,
+      name: 'lee',
+      designation: 'Buisness owner',
+      review: 'never missed deadline',
+      createDate: new Date('02/07/2018'),
       IsActive: true
     }
+
   ];
   //returns testimonials
   getTestimonial():Observable<Testimonial[]>{

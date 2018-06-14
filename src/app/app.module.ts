@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 import { TestimonialsService } from './testimonials.service';
 
 import { AppComponent } from './app.component';
+import { DisplayTestimonialsComponent } from './display-testimonials/display-testimonials.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DisplayTestimonialsComponent
   ],
   imports: [
     BrowserModule
