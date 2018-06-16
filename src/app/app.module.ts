@@ -4,11 +4,13 @@ import { TestimonialsService } from './testimonials.service';
 
 import { AppComponent } from './app.component';
 import { DisplayTestimonialsComponent } from './display-testimonials/display-testimonials.component';
+import { FaqComponent } from './faq/faq.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DisplayTestimonialsComponent
+    DisplayTestimonialsComponent,
+    FaqComponent
   ],
   imports: [
     BrowserModule
